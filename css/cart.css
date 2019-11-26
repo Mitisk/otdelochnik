@@ -1,0 +1,321 @@
+#block-step{
+    height: 70px;
+    border-bottom: 1px solid #E0E0E0;
+    
+}
+#block-step > p{
+    font: 19px sans-serif;
+    color: #646464;
+    margin-top: 8px;
+    margin-left: 15px;
+    position: absolute;
+}
+#name-step{
+    height: 30px;
+}
+#name-step li{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#name-step a{
+    color: #00658B;
+    font: bold 14px sans-serif;
+    text-decoration: none;
+}
+#name-step a.active{
+    color: #EF662B;
+    font: bold 14px sans-serif;
+    border-bottom: 1px dashed #EF662B;
+    
+}
+#header-list-cart{
+    height: 30px;
+	margin: 2px auto;
+    border-bottom: 1px solid #DBDBDB;
+}
+#header-list-cart a{
+    font:bold 13px sans-serif;
+    padding-left: 7px;  
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #DA2027;  
+}
+#header-list-cart > div{
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+    font: bold 13px sans-serif;
+    color: #6D6D6D;
+    margin-top: 7px;
+}
+#head1{width: 130px;}
+#head2{width: 500px;}
+#head3{width: 55px;}
+#head4{width: 140px;}
+#head5{width: 90px;}
+.block-list-cart{
+    height: 130px;
+}
+.block-list-cart > div{
+    float: left;
+    margin-left: 5px;
+}
+.img-cart{
+    width: 130px;
+    height: 125px;
+}
+.title-cart{
+    width: 500px;
+    height: 125px;
+}
+.count-cart{
+    width: 55px;
+    height: 125px;
+}
+.price-product{
+    width: 140px;
+    height: 125px;
+}
+.delete-cart{
+    width: 90;
+    height: 125px;
+}
+.title-cart > p{
+   margin-top: 15px; 
+}
+.title-cart > p > a{
+   font: 15px sans-serif;
+   color: #097A9F;
+}
+.title-cart > p > a:hover{
+   text-decoration: none;
+}
+.input-count-style{
+    margin-top: 31px;
+}
+.input-count-style input{
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    width: 32px;
+    height: 22px;
+    font: 15px sans-serif;
+       border-radius:5px; 
+    -webkit-border-radius:5px; 
+    -moz-border-radius:5px;  
+}
+.input-count-style p{
+    cursor: pointer;
+    font: 15px sans-serif;
+    margin: 1px; 
+}
+.price-product p{
+    margin-left: 15px;
+    margin-top: 65px;
+    font: bold 18px sans-serif;
+}
+.price-product h5{
+    position: absolute;
+    font: bold 13px sans-serif;
+    margin-top: 42px;
+    margin-left: 55px;
+    color: #848484;
+}
+.delete-cart img{
+    margin-top: 50px;
+}
+#bottom-cart-line{
+    width: 100%;
+    margin: 2px auto;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.button-next > a{
+    text-decoration: none;
+	padding: 12px 15px;
+	margin: 10;
+	border: none;
+	border-radius: 5px;
+	background: #9FD468;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 15px;    
+}
+#clear-cart{
+    font: 22px sans-serif;
+    margin-top: 40px;
+}
+.order_delivery {
+	vertical-align: top;
+	width: 17px;
+	height: 17px;
+	margin: 0 3px 0 0;
+}
+.order_delivery + label {
+	cursor: pointer;
+}
+.order_delivery:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.order_delivery:not(checked) + label {
+	position: relative;
+	padding: 0 0 0 35px;
+}
+.order_delivery:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #CDD1DA;
+	border-radius: 50%;
+	background: #FFF;
+}
+.order_delivery:not(checked) + label:after {
+	content: '';
+	position: absolute;
+	top: 1px;
+	left: 4px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #9FD468;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+	opacity: 0;
+	transition: all .2s;
+}
+.order_delivery:checked + label:after {
+	opacity: 1;
+}
+.order_delivery:focus + label:before {
+	box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
+input[type='submit'] {
+	padding: 12px 15px;
+	margin: 10;
+	border: none;
+	border-radius: 5px;
+	background: #9FD468;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 15px;
+}
+input[type='submit']:active {
+	background: #BDC0CC;
+}
+input[type='submit']:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
+#info {
+    margin: 10;
+    padding: 15px;
+    border: 1px dashed #CCC;
+    border-radius: 4px;
+}
+.title-h3 {
+margin: 15px 0px 0px 10px;
+}
+#orderlabel {
+margin: 0 0 0 10px;
+}
+input[type='text'] {
+	width: 100%;
+	outline: none;
+
+	/* Добавим фон, рамку, отступ*/
+	background: #f6f6f6;
+	border: 1px solid #cecece;
+	border-radius: 4px;
+	padding: 8px 0 8px 10px;
+	margin: 5px 0px 10px 0px;
+}
+textarea {
+	overflow: auto;
+	outline: none;
+
+	/* Убираем увеличение */
+	resize: none;
+	width: 100%;
+	height: 100px;
+
+	/* Добавим фон, рамку, отступ*/
+	background: #f6f6f6;
+	border: 1px solid #cecece;
+	border-radius: 4px;
+	margin: 5px 0px 10px 0px;
+	padding: 8px 0 8px 10px;
+}
+*:focus::-webkit-input-placeholder { opacity:0; }
+*:focus:-moz-placeholder { opacity:0; } /* FF 4-18 */
+*:focus::-moz-placeholder { opacity:0; } /* FF 19+ */
+*:focus:-ms-input-placeholder { opacity:0; } /* IE 10+ */
+.itog-price {
+margin: 40;
+}
+.payvisa > input[type=radio], .paymsc > input[type=radio], .payyandex > input[type=radio] {
+    display: none;
+}
+
+.payvisa > span {
+    background: url(../images/pay/visab.jpg);
+    display:inline-block;
+    width:120px;
+    height:77px;
+    vertical-align:middle;
+	margin: 5;
+    border: 1px #fff;
+}
+
+.payvisa > input[type=radio]:checked + span {
+    background: url(../images/pay/visa.jpg);
+	border: 1px dashed #e66800;
+	border-radius: 4px;
+}
+.paymsc > span {
+    background: url(../images/pay/mscb.jpg);
+    display:inline-block;
+    width:120px;
+    height:77px;
+    vertical-align:middle;
+	margin: 5;
+    border: 1px #fff;
+}
+
+.paymsc > input[type=radio]:checked + span {
+    background: url(../images/pay/msc.jpg);
+	border: 1px dashed #e66800;
+	border-radius: 4px;
+}
+.payyandex > span {
+    background: url(../images/pay/yandexb.jpg);
+    display:inline-block;
+    width:120px;
+    height:77px;
+    vertical-align:middle;
+	margin: 5;
+    border: 1px #fff;
+}
+
+.payyandex > input[type=radio]:checked + span {
+    background: url(../images/pay/yandex.jpg);
+	border: 1px dashed #e66800;
+	border-radius: 4px;
+}
+.clearer {
+	clear: both;
+}
+.containerforpay {
+background-image: url(../images/tile.png);
+background-repeat: repeat-y;
+width: 940px;
+margin-left: auto;
+margin-right: auto;
+
+}

@@ -1,0 +1,81 @@
+#content-info {
+margin-top: 15px;
+min-height: 300px;
+}
+#content-info img{
+float: left;
+margin-right: 15px;
+}
+#block-description {
+width: 625px;
+float: left;
+}
+#block-description h1 {
+    font-family: 'MagistralCRegular';
+    line-height: normal;
+	display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#price-and-cart {
+    height: 60px;
+    margin: 10px;
+    border: 1px dashed #e66800;
+    border-radius: 4px;
+	float: left;
+}
+#style-price {
+margin: 8px;
+float: left;
+}
+#probel {
+height: 8px;
+}
+#style-price-new {
+    font-family: 'MagistralCRegular';
+    line-height: normal;
+	display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#style-price-old {
+	font-family: 'MagistralCRegular';
+    line-height: normal;
+	display: block;
+    font-size: 1em;
+    font-weight: bold;
+	text-decoration: line-through;
+	color:#FF0000;
+}
+a.add-cart {
+    cursor: pointer;
+	display: block;
+	font-family: 'MagistralCRegular';
+	padding: 22px;
+	background: #ff7300;
+	border-radius: 0 4px 4px 0;
+}
+a.add-cart:hover{
+	background: #e66800;
+	border-radius: 0 4px 4px 0;
+}
+#add-cart {
+float: left;
+border-left: 1px dashed #e66800;
+}
+#advantage {
+    height: 60px;
+    margin: 10px;
+	background-color: #0094d9;
+    border: 1px dashed #0083c0;
+    border-radius: 4px;
+	float: right;
+}
+#content-text {
+clear:both;
+}
+#content-features {
+margin-top: 10px;
+}
+
+	

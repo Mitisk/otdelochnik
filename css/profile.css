@@ -1,0 +1,83 @@
+#block-orders-info{
+    height: 40px;
+    border-bottom: 1px solid #E0E0E0;
+}
+#review-info-count li{
+    float: left;
+    margin-left: 10px;
+    font: 14px sans-serif;
+    margin-top: 12px;
+}
+.green{
+    color: green;
+}
+.red{
+    color: #D6533C;
+}
+.yellow{
+    color: #FFCC00;
+}
+.delete{
+    padding: 10px;
+    color: #c2c2c2;
+    text-decoration: none;
+}
+
+
+.block-order{
+	border-bottom: 1px dashed #CCC;
+    min-height: 40px;
+    height: auto;
+	margin-bottom: 15;
+}
+.order-link{
+    font: 14px sans-serif;
+    margin-right: 40px;
+    margin-top: -23px;
+    float: right;
+}
+.order-delete{
+    float: right;
+    margin-top: -30px;
+	}
+.order-link > a.green{
+    font:bold 13px sans-serif;
+    color: green;   
+}
+.order-link > a:hover{
+    text-decoration: none;   
+}
+table{
+   margin-top: 20px;
+   border-collapse: separate;
+   width: 100%; /* Ширина таблицы */ 
+   border-spacing: 0px; /* Расстояние между ячейками */ 
+}
+th{
+    font:bold 14px sans-serif;
+}
+td{
+    border: 1px solid #E0E0E0;
+    font:15px sans-serif;
+	padding: 10px; /* Поля вокруг текста */ 
+}
+#info-order{
+   margin-top: 15px;
+}
+#info-order li{
+   font: 16px sans-serif; 
+   margin-left: 10px;
+   margin-top: 6px;
+}
+#info-order span{
+   color: #5D6E78;
+   font:bold 15px sans-serif;
+}
+#info-order span.green{
+   color: #6BA100;
+   font:bold 15px sans-serif;
+}
+#info-order span.red{
+   color: #E05F5F;
+   font:bold 15px sans-serif;
+}
